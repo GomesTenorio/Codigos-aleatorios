@@ -1,0 +1,31 @@
+#include <iostream>
+ using namespace std;
+ double somar(double a, double b) {
+    return a + b;
+}
+
+double subtrair(double a, double b) {
+    return a - b;
+}
+
+double multiplicar(double a, double b) {
+    return a * b;
+}
+
+double dividir(double a, double b) {
+    return a / b;
+}
+ 
+int main()
+{
+    double valor1, valor2;  
+    cout << "Digite o primeiro valor: ";
+    cin >> valor1;
+    cout << "Digite o segundo valor: ";
+    cin >> valor2;
+    
+    cout << "A soma é: " << somar(valor1,valor2) << endl;
+    cout << "A multiplicação é: " << multiplicar(valor1,valor2) << endl;
+    cout << "A divisão é: " << dividir(valor1,valor2) << endl;
+    cout << "A subtração é: " << subtrair(valor1,valor2);    
+    return 0;      }

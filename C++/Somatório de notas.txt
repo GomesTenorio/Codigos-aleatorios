@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+#include <sstream> 
+using namespace std;
+int somatorioNotas, media; 
+int main() {
+   
+   string mystr;
+   double nota1, nota2, nota3;
+   
+   cout << "Nota de Algebra: ";
+   getline (cin, mystr);
+   stringstream(mystr) >> nota1; 
+   
+   cout << "Nota de POO: ";
+   getline (cin, mystr);
+   stringstream(mystr) >> nota2;
+   
+    cout << "Nota de Grafos: ";
+   getline (cin, mystr);
+   stringstream(mystr) >> nota3;
+   
+   cout << "Somatorio das notas: " << somatorioNotas << nota1+nota2+nota3 << endl;
+   cout << "Media: " << media << (nota1+nota2+nota3)/3 << endl;
+    
+      return 0;
+   }

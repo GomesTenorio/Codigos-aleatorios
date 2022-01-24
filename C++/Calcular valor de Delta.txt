@@ -1,0 +1,24 @@
+// my first string
+#include <iostream>
+#include <string>
+using namespace std;
+
+#define NEWLINE '\n'
+
+int main ()
+{
+    int a, b, c, delta;
+
+    cout << "Insira o valor de a: ";
+    cin >> a;
+    cout << "Insira o valor de b: ";
+    cin >> b;
+    cout << "Insira o valor de c: ";
+    cin >> c;
+
+    delta = (b^=b)+((-4)*(a*c));
+    cout << "O valor de Delta é: ";
+    cout << delta;
+    
+  return 0;
+}
