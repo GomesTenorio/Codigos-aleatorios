@@ -1,2 +1,2 @@
-# Meu repositório de códigos
-## Repositório Inicial de códigos desenvolvidos por mim.
+# Repositório de códigos aleatórios
+## Contém códigos simples e aleatórios criados por mim
