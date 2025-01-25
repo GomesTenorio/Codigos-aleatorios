@@ -1,2 +1,1 @@
-# Repositório de códigos aleatórios
-## Contém códigos simples e aleatórios criados por mim
+Nothing important, just a few coding exercises I worked on.
